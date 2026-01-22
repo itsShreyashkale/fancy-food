@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =====================
+   GLOBAL BASE
+===================== */
+
+html,
+body {
+  background-color: #0b0b0b;
+  color: #ffffff;
+}
+
+/* =====================
+   COMPONENT LAYER
+===================== */
+
+@layer components {
+  /* ---------- LAYOUT ---------- */
+
+  .app-container {
+    @apply max-w-7xl mx-auto px-6;
+  }
+
+  /* ---------- TYPOGRAPHY ---------- */
+
+  .page-title {
+    @apply text-4xl md:text-5xl font-semibold tracking-tight mb-14 text-center;
+  }
+
+  .section-title {
+    @apply text-2xl md:text-3xl font-semibold tracking-tight mb-8;
+  }
+
+  .muted-text {
+    @apply text-gray-400 text-sm;
+  }
+
+  /* ---------- SURFACES / CARDS ---------- */
+
+  .card {
+    @apply bg-[#141414]
+           border border-white/5
+           rounded-2xl
+           transition
+           duration-300;
+  }
+
+  .card-hover {
+    @apply hover:border-white/10
+           hover:-translate-y-1;
+  }
+
+  /* ---------- BUTTONS ---------- */
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center
+           rounded-full
+           bg-yellow-400
+           px-6 py-3
+           text-sm font-medium text-black
+           transition
+           hover:bg-yellow-300
+           active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center
+           rounded-full
+           border border-white/10
+           px-6 py-3
+           text-sm font-medium text-white
+           transition
+           hover:bg-white/5
+           active:scale-95;
+  }
+
+  .btn-danger {
+    @apply text-sm font-medium text-red-400
+           transition
+           hover:text-red-300;
+  }
+
+  /* ---------- INPUTS ---------- */
+
+  .input {
+    @apply w-full
+           rounded-lg
+           bg-black
+           border border-white/10
+           px-4 py-3
+           text-sm
+           focus:outline-none
+           focus:border-yellow-400
+           transition;
+  }
+}
