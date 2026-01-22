@@ -14,3 +14,57 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+# 🍔 FancyFood — MERN Food Ordering App
+
+FancyFood is a full-stack food ordering web application built using the MERN stack.  
+It allows users to browse food items, add them to cart, place orders, and track their orders — all with a modern UI and secure authentication.
+
+---
+
+## ✨ Features
+
+- User Authentication (JWT)
+- Add to Cart & Cart Persistence
+- Secure Checkout Flow
+- Order Placement & Order History
+- Protected Routes
+- Responsive & Modern UI
+- Smooth Animations with Framer Motion
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React (Vite)
+- Tailwind CSS
+- Framer Motion
+- React Router
+- Context API
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+
+---
+
+## 🔐 Authentication
+
+- JWT-based authentication
+- Protected routes on frontend & backend
+- Persistent login using localStorage
+
+---
+
+## 🚀 Getting Started
+
+### Frontend
+```bash
+npm install
+npm run dev
