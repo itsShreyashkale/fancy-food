@@ -62,6 +62,8 @@ It allows users to browse food items, add them to cart, place orders, and track 
 
 ---
 
+<img width="1850" height="770" alt="image" src="https://github.com/user-attachments/assets/ef3a8d9f-9264-4ea2-9284-204347fb2682" />
+
 ## 🚀 Getting Started
 
 ### Frontend
@@ -70,5 +72,3 @@ npm install
 npm run dev
 
 
-<img width="1895" height="812" alt="image" src="https://github.com/user-attachments/assets/21d79d10-9fbb-4847-ab8f-e0cec7cbdcad" />
-<img width="1850" height="770" alt="image" src="https://github.com/user-attachments/assets/be2591de-abb4-44f5-b4ca-16a636027070" />
